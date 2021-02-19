@@ -1,6 +1,26 @@
-[{"name": "Хлеб", "price": "50.3"},
-  {"name": "Молоко", "price": "60.3"},
-  {"name": "Рис", "price": "70.3"},
-  {"name": "Сыр", "price": "300.3"},
-  {"name": "Кофе", "price": "200.3"},
-  {"name": "Вода", "price": "40.3"}]
+[
+  {
+    "productName": "Хлеб",
+    "price": "50.3"
+  },
+  {
+    "productName": "Молоко",
+    "price": "60.3"
+  },
+  {
+    "productName": "Рис",
+    "price": "70.3"
+  },
+  {
+    "productName": "Сыр",
+    "price": "300.3"
+  },
+  {
+    "productName": "Кофе",
+    "price": "200.3"
+  },
+  {
+    "productName": "Вода",
+    "price": "40.3"
+  }
+]

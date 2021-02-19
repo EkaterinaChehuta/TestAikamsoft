@@ -1,4 +1,34 @@
-[{"lastname": "Иванов", "firstname": "Иван"},
-  {"lastname": "Петров", "firstname": "Дима"},
-  {"lastname": "Сидоров", "firstname": "Вася"},
-  {"lastname": "Смирнов", "firstname": "Иван"}]
+[
+  {
+    "lastname": "Иванов",
+    "firstname": "Иван"
+  },
+  {
+    "lastname": "Петров",
+    "firstname": "Дима"
+  },
+  {
+    "lastname": "Сидоров",
+    "firstname": "Вася"
+  },
+  {
+    "lastname": "Смирнов",
+    "firstname": "Иван"
+  },
+  {
+    "lastname": "Ивановa",
+    "firstname": "Катя"
+  },
+  {
+    "lastname": "Петровa",
+    "firstname": "Таня"
+  },
+  {
+    "lastname": "Сидоров",
+    "firstname": "Петя"
+  },
+  {
+    "lastname": "Смирнов",
+    "firstname": "Коля"
+  }
+]

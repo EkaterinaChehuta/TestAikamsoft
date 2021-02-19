@@ -1,5 +1,7 @@
 package org.example.testAikamsoft.domain;
 
+import net.minidev.json.annotate.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity

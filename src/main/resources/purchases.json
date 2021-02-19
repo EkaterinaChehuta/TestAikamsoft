@@ -1,0 +1,29 @@
+[
+  {
+    "purchaseDate": "2020-03-27",
+    "customer": {
+      "id": 1
+    },
+    "product": {
+      "id": 2
+    }
+  },
+  {
+    "purchaseDate": "2020-03-27",
+    "customer": {
+      "id": 1
+    },
+    "product": {
+      "id": 3
+    }
+  },
+  {
+    "purchaseDate": "2020-03-28",
+    "customer": {
+      "id": 2
+    },
+    "product": {
+      "id": 3
+    }
+  }
+]

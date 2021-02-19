@@ -9,14 +9,14 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private String name;
+    private String productName;
     private double price;
 
     public Product() {
     }
 
-    public Product(String name, double price) {
-        this.name = name;
+    public Product(String productName, double price) {
+        this.productName = productName;
         this.price = price;
     }
 
@@ -24,12 +24,12 @@ public class Product {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void getProductName(String productName) {
+        this.productName = productName;
     }
 
     public double getPrice() {
