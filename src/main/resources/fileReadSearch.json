@@ -1,0 +1,18 @@
+{
+  "criteria": [
+    {
+      "lastname": "Сидоров"
+    },
+    {
+      "productName": "Хлеб",
+      "count": 1
+    },
+    {
+      "minExpenses": 200.1,
+      "maxExpenses": 500.5
+    },
+    {
+      "badCustomers": 3
+    }
+  ]
+}
