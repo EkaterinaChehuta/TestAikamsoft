@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface PurchasesRepos extends JpaRepository<Purchase,Integer> {
     List<Purchase> findByProduct(Product product);
-//    List<Purchase> findByDateBetween(Date startDate, Date endDate);
+    List<Purchase> findByPurchaseDateBetween(Date startDate, Date endDate);
 }
