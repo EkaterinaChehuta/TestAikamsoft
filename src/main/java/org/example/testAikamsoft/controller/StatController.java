@@ -75,6 +75,7 @@ public class StatController {
                 results.put("type", "stat");
                 results.put("totalDays", totalDays);
                 results.put("customers", customers);
+                results.put("totalExpenses", 0);
 
                 ObjectWriter writer = objectMapper.writer(new DefaultPrettyPrinter());
 
@@ -99,20 +100,25 @@ public class StatController {
 
         List<Object> purchases = new ArrayList<>();
 
+        double totalExpenses = 0;
+
         for (Map.Entry<Product, List<Purchase>> product : products.entrySet()) {
-            Map<String, String> productMap = new LinkedHashMap<>();
+            Map<String, Object> productMap = new LinkedHashMap<>();
 
             String productName = product.getKey().getProductName();
-            double sum = product.getValue().stream().mapToDouble(e -> e.getProduct().getPrice()).sum();
+            double expenses = product.getValue().stream().mapToDouble(e -> e.getProduct().getPrice()).sum();
+
+            totalExpenses += expenses;
 
             productMap.put("productName", productName);
-            productMap.put("expenses", Double.toString(sum));
+            productMap.put("expenses", expenses);
             purchases.add(productMap);
         }
 
         Map<String, Object> customers = new LinkedHashMap<>();
         customers.put("name", name);
         customers.put("purchases", purchases);
+        customers.put("totalExpenses", totalExpenses);
 
         return customers;
     }
